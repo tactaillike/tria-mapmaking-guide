@@ -1,4 +1,5 @@
 # The Ultimate TRIA.os Map Kit Compendium
+[![click here](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/icons/click_here.svg)](https://github.com/tactaillike/tria-mapmaking-guide/wiki)
 
 The [TRIA.os Map Kit Compendium](https://github.com/tactaillike/tria-mapmaking-guide/wiki), created by tac_taillike, is a community resource containing all the information needed to create a map for TRIA.os, a fast-paced parkour obby game on the Roblox platform. 
 
