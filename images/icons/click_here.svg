@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 870 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-400,-300)">
+        <g transform="matrix(2.175,0,0,1,-470,0)">
+            <path d="M800,350C800,322.404 789.699,300 777.011,300L422.989,300C410.301,300 400,322.404 400,350L400,450C400,477.596 410.301,500 422.989,500L777.011,500C789.699,500 800,477.596 800,450L800,350Z" style="fill:url(#_Linear1);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,-0.776,7.736)">
+            <g transform="matrix(144,0,0,144,1220.11,440)">
+            </g>
+            <text x="450px" y="440px" style="font-family:'CoolveticaRg-Regular', 'Coolvetica', sans-serif;font-size:144px;fill:white;stroke:black;stroke-width:4px;">C<tspan x="544.032px 621.936px 654.624px 748.656px 841.392px 881.856px 972.144px 1054.51px 1143.5px " y="440px 440px 440px 440px 440px 440px 440px 440px 440px ">LICK HERE</tspan></text>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(400,0,0,200,400,400)"><stop offset="0" style="stop-color:rgb(255,98,0);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(134,0,255);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
