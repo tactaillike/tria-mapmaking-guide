@@ -6,3 +6,5 @@ It provides an overview of the official TRIA.os map kit and its contents, along 
 
 > ⚠️ This compendium is work-in-progress and may contain errors. As such, the contents are subject to change and Tac is not liable for any broken maps. The most up to date information will be found in the official TRIA.os documentation linked below.
 
+### Quick Links
+
