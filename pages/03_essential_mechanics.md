@@ -39,7 +39,18 @@ Button event tags are used to add more functionality to buttons without scriptin
 
 If you want to add a delay to a button event, add a `NumberValue` named ‘_Delay’ under the ObjectValue and enter a delay value in seconds. Any parts with button events should be placed inside the Button folder, as well.
 
+## Button Settings
+Inside the `Settings` folder, you'll find a `Button` folder containing settings including:
 
+- Color
+    - Active: current button you need to press
+    - Inactive: every button after the active button
+    - Activated: buttons already pressed
+- Activation sound
+    - sound ID
+- Locator image
+    - image ID
+    - four provided by default: default, classic, circle, square
 
 
 
