@@ -44,4 +44,39 @@ local MapLib = game.GetMapLib:Invoke()()
 local map = MapLib.map
 ```
 
-At the top of the MapScript, there are two lines of code. The first one retrieves the MapLib ‘library’, which contains all TRIA-specific functions that you can use in your script, and you should generally keep it up here. The second line just makes it easier to refer to the map model by creating a variable named ‘map’. 
+At the top of the MapScript, there are two lines of code. The first one retrieves the MapLib ‘library’, which contains all TRIA-specific methods that you can use in your script, and you should generally keep it up here. The second line just makes it easier to refer to the map model by creating a variable named ‘map’. 
+
+### Making Variables
+If you want to reduce the amount of typing you have to do later, now would be a good time to start making some additional variables as shown:
+
+``` luau
+local geometry = map.Geometry
+local special = map.Special
+
+local button = special.Button
+local exit = special.Exit
+local fluid = special.Fluid
+local interactables = special.Interactable
+local medal = special.Medal
+```
+
+### Button Functions
+Next are button functions, which execute when a button is pressed. The number inside the parentheses next to `GetButtonEvent` is the button number, and the `end)` line closes the function. In between are whatever lines of code you want to run, which can include standard MapLib functions as shown below.
+
+#### MapLib:Alert
+``` luau
+MapLib:GetButtonEvent(1):Connect(function(player)
+	MapLib:Alert("Button 1 Pressed", "red", 1)
+end)
+```
+Pressing button 1 will cause the MapScript to run the method `MapLib:Alert` which will alert players that the first button is pressed with red text for one second, which is pretty redundant but ok. 
+
+#### MapLib:SetLiquidType
+``` luau
+MapLib:GetButtonEvent(2):Connect(function(player)
+	-- This line will set the liquid type to a default type
+	MapLib:SetLiquidType(map.Special.Fluid._Liquid3, "lava")
+end)
+```
+
+Using `MapLib:SetLiquidType` here will change `_Liquid3` to lava once button 2 is pressed.
