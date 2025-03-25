@@ -15,7 +15,7 @@ Functionally, the main difference between fluid states is how fast they drain yo
 You can assign a different state to a liquid using scripting, and using this method, the liquid will change color depending on the new liquid state.
 
 ## Custom Fluid States
-You can also create your own fluid states by creating a new `Configuration` in the under `Settings > Fluids`. You’ll find a pre-made ‘custom’ fluid state with three attributes:
+You can also create your own fluid states by creating a new `Configuration` under `Settings > Fluids`. You’ll find a pre-made ‘custom’ fluid state with three attributes:
 
 - Color
 - OxygenDepletion (as a rate of oxygen/s)
