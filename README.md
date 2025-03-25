@@ -7,6 +7,8 @@ It provides an overview of the official TRIA.os map kit and its contents, along 
 > ⚠️ This compendium is work-in-progress and may contain errors. As such, the contents are subject to change and Tac is not liable for any broken maps. The most up to date information will be found in the official TRIA.os documentation linked below.
 
 ## Quick Links
+-[TRIA.os Map Making Kit](https://create.roblox.com/store/asset/93671903447129/TRIAos-Map-Making-Kit)
+  - Current map kit since version 1.0
 - [MapLib](https://tria-studio.github.io/Tria-Escape-MapLib/api/MapLib/)
   - Official TRIA.os MapLib Documentation
 - [Roblox Studio Documentation](https://create.roblox.com/docs/studio)
