@@ -31,10 +31,10 @@ MapLib:GetButtonEvent(2):Connect(function(player)
 end)
 
 -- This line will move Liquid 2 up 20 studs over the span of 5 seconds
-MapLib:MovePart(map.Special.Fluid._Liquid2, Vector3.new(0, 20, 0), 5)
+MapLib:Move(map.Special.Fluid._Liquid2, Vector3.new(0, 20, 0), 5)
 
 -- This line will move Liquid 3 up 20 studs locally (based on rotation) over the span of 5 seconds
-MapLib:MovePartLocal(map.Special.Fluid._Liquid1, Vector3.new(0, 20, 0), 5)
+MapLib:MoveLocal(map.Special.Fluid._Liquid1, Vector3.new(0, 20, 0), 5)
 ```
 
 ### Invoking the MapLib
@@ -80,3 +80,58 @@ end)
 ```
 
 Using `MapLib:SetLiquidType` here will change `_Liquid3` to lava once button 2 is pressed.
+
+### Main Body
+``` luau
+-- This line will move Liquid 2 up 20 studs over the span of 5 seconds
+MapLib:Move(map.Special.Fluid._Liquid2, Vector3.new(0, 20, 0), 5)
+
+-- This line will move Liquid 1 up 20 studs locally (based on rotation) over the span of 5 seconds
+MapLib:MoveLocal(map.Special.Fluid._Liquid1, Vector3.new(0, 20, 0), 5)
+```
+When someone loads the map kit in game, the first `MapLib:Move` is the first event the player will see in the map, starting after the level finishes loading.
+
+As you can see, `MapLib:Move` takes in a part (like liquid 1), a `Vector3` representing the path of the move in studs (e.g. 20 studs upward), and a number representing how long it'll take in seconds as the arguments. `MapLib:MoveLocal` does the same thing, but using the part's local axis rather than global axis (it's just taking the rotation into account). 
+
+> `:Move` and `:MoveLocal` work on models too!
+
+You can use `task.wait(#)` to time these events. For instance, if you want Liquid 1 to start moving *after* Liquid 2...
+
+``` luau
+-- This line will move Liquid 2 up 20 studs over the span of 5 seconds
+MapLib:Move(map.Special.Fluid._Liquid2, Vector3.new(0, 20, 0), 5)
+
+task.wait(5)
+
+-- This line will move Liquid 1 up 20 studs locally (based on rotation) over the span of 5 seconds
+MapLib:MoveLocal(map.Special.Fluid._Liquid1, Vector3.new(0, 20, 0), 5)
+```
+
+Now, while Liquid 2 is moving, the MapScript will wait for 5 seconds, letting the first `:Move` finish before running `:MoveLocal`. Oh, and let's try cleaning this up a little more using the variables from before.
+
+``` luau
+-- This line will move Liquid 2 up 20 studs over the span of 5 seconds
+MapLib:Move(fluid._Liquid2, Vector3.new(0, 20, 0), 5)
+
+task.wait(5)
+
+-- This line will move Liquid 1 up 20 studs locally (based on rotation) over the span of 5 seconds
+MapLib:MoveLocal(fluid._Liquid1, Vector3.new(0, 20, 0), 5)
+```
+
+Nice. Knowing how to use `:Move` and `task.wait()` gives you basically all the knowledge you need in order to create a fully functioning TRIA map. Of course, you don't need to stop there, as the MapLib is [much, much bigger](https://tria-studio.github.io/Tria-Escape-MapLib/api/MapLib/) than just Move and MoveLocal. Note that the Mapmaking Companion provides **realtime autocompletion** for all the functions in the MapLib!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
