@@ -5,7 +5,7 @@ In order to make your map playable, there are basically two steps:
 
 These two are both done from the Map Manager, which can be accessed within TRIA.os from the main menu.
 
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/08_1.png)
+![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/08_1.jpg)
 
 Additionally, if you want players to be able to gain awards from beating your map, you must go through the process of **Map Verification**.
 
@@ -33,7 +33,7 @@ Once your map is complete, it's time to publish it, which is necessary to begin 
 
 Go back to `Published Maps`. When you first publish a map, it starts off as private, meaning it isn't visible on the map list. You can toggle it to public and vice versa. 
 
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/08_3.png)
+![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/08_3.jpg)
 
 The `Manage Creators` menu allows you to add any additional creators to the map, which lets them appear as a creator when loading the map and lets them recieve any map donations.
 
