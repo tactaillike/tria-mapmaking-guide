@@ -24,6 +24,7 @@ Normal wallruns and momentum wallruns are color coded in the map kit, and I’d 
 
 # Ziplines
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_2.png)
+
 > Ziplines are found under `Special > Ziplines` rather than `Special > Interactables`.
 
 Ziplines allow for quick traversal across a level and can even be used for interesting gameplay. 
@@ -54,6 +55,7 @@ They're basically ziplines but you ride on top of them.
 
 # Boosts
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_3.png)
+
 Speedboosts, jumpboosts, and Gravity are non-collideable parts that change the player's walkspeed (20 by default), jump power (50 by default), and gravity (280 by default) respectively. Despite being called boosts, they can either raise or lower these values. They contain the following attributes:
 
 - _action `string`
@@ -73,6 +75,7 @@ Killbricks kill you. Players die if they are killed. That’s the way it should 
 
 # Orbs
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_4.png)
+
 Mechanically similar, somewhat, to walljumps, players are able to jump inside of Orbs and launch themselves great distances. There are two types of Orbs: **launch Orbs**, which launch players in a set direction, and **pivot Orbs**, which let players choose their launch trajectory by turning their character.
 
 Each Orb model contains a Hitbox mesh, and most notably, Orbs can be resized as small or as large as needed. They share the following attributes:
@@ -86,12 +89,14 @@ Each Orb model contains a Hitbox mesh, and most notably, Orbs can be resized as 
 
 # Teleporters
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_5.png)
+
 When a player touches the blue `Teleporter` part, they’ll teleport to the orange `Destination` part found under `Teleporter > Destination`. 
 
 The teleporter part has an attribute `SetCameraFront` that when enabled, the player will face where the front side of the `Destination` part is pointing, which is marked by the green SurfaceGui, after they teleport.
 
 # Jetstreams
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_6.png)
+
 These enable underwater currents, running from the Back to the Front face of the `Jetstream` part. They contain the following attributes:
 
 - _action `string`
@@ -103,6 +108,7 @@ These enable underwater currents, running from the Back to the Front face of the
 
 # Skill Cancels
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_7.png)
+
 These parts allow you to force players off wallruns and ziplines as shown in the map kit.
 
 - _action `string`
@@ -110,12 +116,14 @@ These parts allow you to force players off wallruns and ziplines as shown in the
 
 # Bounce Pads
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_8.png)
+
 - _action `string`
     - `BouncePad`
 - Power `number`
 
 # Variants
 ![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/05_9.png)
+
 Using the map kit as an example, TRIA.os will choose between one of the three color coded variants to load, each of which are located in their own folder under `Special > Variant`.
 
 

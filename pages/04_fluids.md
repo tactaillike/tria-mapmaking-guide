@@ -17,6 +17,8 @@ Functionally, the main difference between fluid states is how fast they drain yo
 You can assign a different state to a liquid using scripting, and using this method, the liquid will change color depending on the new liquid state.
 
 ## Custom Fluid States
+![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/04_2.png)
+
 You can also create your own fluid states by creating a new `Configuration` under `Settings > Fluids`. You’ll find a pre-made ‘custom’ fluid state with three attributes:
 
 - Color
