@@ -30,6 +30,7 @@ Once your map is complete, it's time to publish it, which is necessary to begin 
 - Unique name
 - Unique map image
 - Must used optimized structure (essentially the Special folder)
+- Must be under 50k instances- for reference, Nos Astra has 49k, so it is highly unlikely you'll run into this one
 
 Go back to `Published Maps`. When you first publish a map, it starts off as private, meaning it isn't visible on the map list. You can toggle it to public and vice versa. 
 
