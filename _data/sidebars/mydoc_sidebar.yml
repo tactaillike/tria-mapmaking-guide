@@ -1,0 +1,68 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: TRIA.os Map Making Compendium 
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+  
+  - title: Overview
+    output: web, pdf
+    folderitems:
+    
+    - title: Home
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+
+  - title: Map Kit + Other Basics
+    output: web, pdf
+    folderitems:
+
+    - title: Getting the Map Kit
+      url: /01_map_kit_installation.html
+      output: web, pdf
+
+    - title: Map Kit Structure
+      url: /02_kit_structure.html
+      output: web, pdf
+
+    - title: Essential Mechanics
+      url: /03_essential_mechanics.html
+      output: web, pdf
+
+    - title: Fluids
+      url: /04_fluids.html
+      output: web, pdf
+    
+    - title: Interactables
+      url: /05_interactables.html
+      output: web, pdf
+    
+    - title: Map Settings
+      url: /06_map_settings.html
+      output: web, pdf
+
+    - title: Scripting . . .
+      url: /07_scripting_intro.html
+      output: web, pdf
+    
+    - title: Saving Your Map
+      url: /08_map_functionality.html
+      output: web, pdf
+
+# Copyright 2021 Google LLC

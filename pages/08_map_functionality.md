@@ -1,11 +1,20 @@
-# 08 - Saving Your Map
+---
+title: Saving Your Map
+tags: 
+keywords: 
+last_updated: 
+summary: 
+sidebar: mydoc_sidebar
+permalink: 08_map_functionality.html
+---
+
 In order to make your map playable, there are basically two steps:
 1. "Create Map" (formerly whitelisting)
 2. Map Publishing (private/public)
 
 These two are both done from the Map Manager, which can be accessed within TRIA.os from the main menu.
 
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/08_1.jpg)
+{% include image.html file ="08_1.jpg" alt="" caption=""%}
 
 Additionally, if you want players to be able to gain awards from beating your map, you must go through the process of **Map Verification**.
 
@@ -14,7 +23,7 @@ This step is required in order to begin testing your map, and this process adds 
 
 To start, save your map model (in this case, probably just the map kit) and set it to **on sale**, which is necessary for TRIA to obtain your map.
 
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/08_2.png)
+{% include image.html file ="08_2.png" alt="" caption=""%}
 
 From the Map Manager, go to `Create Map` and enter the asset ID of the model you just set on sale. Press enter, and a new map slot should be created, containing the name of the map along with a **short ID**.As the map owner, you're able to use the asset ID to load the map in game. However, anyone else will need to use the short ID.
 
@@ -34,7 +43,7 @@ Once your map is complete, it's time to publish it, which is necessary to begin 
 
 Go back to `Published Maps`. When you first publish a map, it starts off as private, meaning it isn't visible on the map list. You can toggle it to public and vice versa. 
 
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/08_3.jpg)
+{% include image.html file ="08_3.jpg" alt="" caption=""%}
 
 The `Manage Creators` menu allows you to add any additional creators to the map, which lets them appear as a creator when loading the map and lets them recieve any map donations.
 

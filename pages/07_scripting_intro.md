@@ -1,4 +1,13 @@
-# 07 - Scripting . . .
+---
+title: Scripting . . .
+tags: 
+keywords: 
+last_updated: 
+summary: 
+sidebar: mydoc_sidebar
+permalink: 07_scripting_intro.html
+---
+
 It may be intimidating, but scripting is essential for giving your map life and function. Fortunately for you, creating a full map is possible with just basic knowledge of TRIA.os functions. There are three map scripts inside the map kit, and you can add even more if you wanted, but there’s only one that your map needs in order to run, the `MapScript`, so that’s what we’ll take a look at first.
 
 ## IMPORTANT: Runtime Script

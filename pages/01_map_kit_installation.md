@@ -1,4 +1,13 @@
-# 01 - Getting the Map Kit
+---
+title: Getting the Map Kit
+tags: 
+keywords: 
+last_updated: 
+summary: 
+sidebar: mydoc_sidebar
+permalink: 01_map_kit_installation.html
+---
+
 
 The official TRIA.os Map Kit comes as a Roblox model containing the proper structure needed to work inside the TRIA.os game. It is generally recommended you start with this when creating a new map.
 

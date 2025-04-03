@@ -1,0 +1,24 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: GitHub
+      external_url: https://github.com/tactaillike/tria-mapmaking-guide
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Help
+      folderitems:
+        - title: TRIA MapLib
+          external_url: https://tria-studio.github.io/Tria-Escape-MapLib/api/MapLib/
+        - title: Map Kit
+          external_url: https://create.roblox.com/store/asset/93671903447129/TRIAos-Map-Making-Kit
+        - title: Roblox Studio Docs
+          external_url: https://create.roblox.com/docs/studio
+        - title: Mapmaking Companion Plugin
+          external_url: https://www.roblox.com/library/13782566472/TRIA-Plugin-Suite
+
+# Copyright 2021 Google LLC

@@ -1,8 +1,17 @@
-# 06 - Map Settings
+---
+title: Map Settings
+tags: 
+keywords: 
+last_updated: 
+summary: 
+sidebar: mydoc_sidebar
+permalink: 06_map_settings.html
+---
+
 The settings are divided into many different sections; let’s go over the ones we haven’t covered yet.
 
 ## Main Settings
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/06_1.png)
+{% include image.html file ="06_1.png" alt="" caption=""%}
 
 The main settings contain, well, all the main things about your map: name, description, image ID for your map thumbnail, max time in seconds (after which all players who haven’t beaten the map are killed, you can set this up to 10 minutes), and map difficulty number. There are 7 main difficulties:
 
@@ -15,7 +24,7 @@ The main settings contain, well, all the main things about your map: name, descr
 7. Eternal
 
 ## Music
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/06_2.png)
+{% include image.html file ="06_2.png" alt="" caption=""%}
 
 To set the music for your map, make sure there's a `Sound` instance under `Settings` containing the `SoundId` of the desired soundtrack.
 
@@ -35,6 +44,6 @@ By default, TRIA comes with two skills, Sliding and Air Diving, which can be tog
 You can also toggle the type of sliding your map uses, either Linear sliding or non-linear sliding, which essentially acts as a speedboost ability with a cooldown, allowing you to do much longer jumps.
 
 ## UI
-![](https://github.com/tactaillike/tria-mapmaking-guide/blob/main/images/06_6.png)
+{% include image.html file ="06_6.png" alt="" caption=""%}
 
 If your map contains any on-screen UI elements, you can put them here.
