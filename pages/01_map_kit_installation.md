@@ -19,6 +19,6 @@ While the Mapmaking Companion isn't strictly necessary to create a functioning m
 
 After installing the plugin, open it in Roblox Studio and insert the Map Kit from the 🧩Resources tab. You can then select the model and open it in the plugin by clicking at the bottom of the panel where it says `No map selected (Click to select)`
 
-{% include image.html file="01_1.png" url="" alt="" caption="" %}
+{% include image.html file="01_1.jpg" url="" alt="" caption="" %}
 
 {% include image.html file="01_2.png" url="" alt="" caption="" %}
