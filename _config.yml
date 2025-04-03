@@ -116,5 +116,8 @@ description: "Intended as a documentation theme based on Jekyll for technical wr
 
 github: [metadata]
 
+url: tactaillike.github.io
+baseurl: /tria-mapmaking-guide
+
 
 # Copyright 2021 Google LLC
