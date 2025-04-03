@@ -267,6 +267,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     uri (1.0.3)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -274,6 +275,8 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
+  wdm
 
 BUNDLED WITH
    2.6.6
